@@ -78,8 +78,8 @@ Returns a specific user by ID.
   "success": true,
   "data": {
     "id": 1,
-    "name": "John Doe",
-    "email": "john@example.com",
+    "name": "abc",
+    "email": "abc@example.com",
     "age": 30,
     "createdAt": "2025-10-26T10:00:00.000Z",
     "updatedAt": "2025-10-26T10:00:00.000Z"
@@ -103,8 +103,8 @@ Creates a new user.
 **Request Body:**
 ```json
 {
-  "name": "John Doe",
-  "email": "john@example.com",
+  "name": "abc",
+  "email": "abc@example.com",
   "age": 30
 }
 ```
@@ -116,8 +116,8 @@ Creates a new user.
   "message": "User created successfully",
   "data": {
     "id": 1,
-    "name": "John Doe",
-    "email": "john@example.com",
+    "name": "abc",
+    "email": "abc@example.com",
     "age": 30,
     "createdAt": "2025-10-26T10:00:00.000Z",
     "updatedAt": "2025-10-26T10:00:00.000Z"
@@ -144,7 +144,7 @@ Updates an existing user. You can update one or more fields.
 **Request Body:**
 ```json
 {
-  "name": "John Smith",
+  "name": "abc Smith",
   "age": 31
 }
 ```
@@ -156,8 +156,8 @@ Updates an existing user. You can update one or more fields.
   "message": "User updated successfully",
   "data": {
     "id": 1,
-    "name": "John Smith",
-    "email": "john@example.com",
+    "name": "abc Smith",
+    "email": "abc@example.com",
     "age": 31,
     "createdAt": "2025-10-26T10:00:00.000Z",
     "updatedAt": "2025-10-26T11:00:00.000Z"
