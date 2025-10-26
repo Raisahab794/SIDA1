@@ -144,7 +144,7 @@ Updates an existing user. You can update one or more fields.
 **Request Body:**
 ```json
 {
-  "name": "abc Smith",
+  "name": "abc",
   "age": 31
 }
 ```
@@ -156,7 +156,7 @@ Updates an existing user. You can update one or more fields.
   "message": "User updated successfully",
   "data": {
     "id": 1,
-    "name": "abc Smith",
+    "name": "abc",
     "email": "abc@example.com",
     "age": 31,
     "createdAt": "2025-10-26T10:00:00.000Z",
@@ -203,9 +203,6 @@ Deletes a user by ID.
 - Must be an integer
 - Must be between 0 and 150
 
-## Testing the API
-
-You can test the API using curl, Postman, or any HTTP client. See `API_TESTS.md` for detailed test examples.
 
 ## Project Structure
 
